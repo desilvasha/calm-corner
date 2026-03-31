@@ -1,0 +1,269 @@
+/* ═══════════════════════════════════════════════════════════════════════
+   BENEFITS PAGE — extends base style.css
+   ═══════════════════════════════════════════════════════════════════════ */
+
+/* ── Page Hero ──────────────────────────────────────────────────────── */
+.benefits-hero {
+  padding: clamp(var(--space-16), 10vw, var(--space-24)) var(--space-6) var(--space-12);
+}
+
+.breadcrumb {
+  display: inline-block;
+  font-size: var(--text-sm);
+  color: var(--color-accent);
+  text-decoration: none;
+  margin-bottom: var(--space-8);
+  font-weight: 500;
+}
+
+.breadcrumb:hover {
+  color: var(--color-accent-hover);
+}
+
+.benefits-title {
+  font-size: var(--text-2xl);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  margin-bottom: var(--space-6);
+  color: var(--color-text);
+}
+
+.benefits-intro {
+  font-size: var(--text-lg);
+  font-family: var(--font-display);
+  color: var(--color-text-muted);
+  line-height: 1.5;
+  margin-bottom: var(--space-4);
+  font-style: italic;
+}
+
+.benefits-intro-sub {
+  font-size: var(--text-base);
+  color: var(--color-text-muted);
+  line-height: 1.8;
+  margin-bottom: var(--space-6);
+}
+
+.benefits-prompt {
+  font-size: var(--text-base);
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+/* ── Benefits List ─────────────────────────────────────────────────── */
+.benefits-list {
+  padding: var(--space-4) var(--space-6) var(--space-12);
+}
+
+.benefit-block {
+  display: flex;
+  gap: var(--space-6);
+  align-items: flex-start;
+  padding: var(--space-8) 0;
+  border-bottom: 1px solid var(--color-border);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.benefit-block.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.benefit-block:first-child {
+  padding-top: var(--space-4);
+}
+
+.benefit-block:last-child {
+  border-bottom: none;
+}
+
+/* Stagger reveal */
+.benefit-block:nth-child(2).revealed { transition-delay: 0.04s; }
+.benefit-block:nth-child(3).revealed { transition-delay: 0.08s; }
+.benefit-block:nth-child(4).revealed { transition-delay: 0.12s; }
+.benefit-block:nth-child(5).revealed { transition-delay: 0.16s; }
+.benefit-block:nth-child(6).revealed { transition-delay: 0.20s; }
+.benefit-block:nth-child(7).revealed { transition-delay: 0.24s; }
+
+.benefit-icon-wrap {
+  flex-shrink: 0;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-lg);
+  background: var(--color-accent-subtle);
+  color: var(--color-text);
+  margin-top: var(--space-1);
+}
+
+.benefit-content h2 {
+  font-family: var(--font-body);
+  font-size: var(--text-lg);
+  font-weight: 600;
+  margin-bottom: var(--space-3);
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-3);
+}
+
+.benefit-num {
+  font-family: var(--font-display);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--color-accent);
+  background: var(--color-accent-light);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  top: 1px;
+}
+
+.benefit-content p {
+  font-size: var(--text-base);
+  color: var(--color-text-muted);
+  line-height: 1.75;
+  margin-bottom: var(--space-3);
+}
+
+.benefit-supports {
+  font-weight: 500;
+  color: var(--color-text) !important;
+  margin-bottom: var(--space-2) !important;
+  font-size: var(--text-sm) !important;
+}
+
+.benefit-content ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.benefit-content li {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  padding-left: var(--space-6);
+  position: relative;
+  line-height: 1.6;
+}
+
+.benefit-content li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  opacity: 0.4;
+}
+
+/* ── Why Card ──────────────────────────────────────────────────────── */
+.benefits-why {
+  background: var(--color-surface);
+}
+
+.why-card {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  padding: var(--space-10) var(--space-8);
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.6s, transform 0.6s;
+}
+
+.why-card.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.why-card h2 {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  font-weight: 500;
+  margin-bottom: var(--space-5);
+  letter-spacing: -0.015em;
+}
+
+.why-card p {
+  font-size: var(--text-base);
+  color: var(--color-text-muted);
+  line-height: 1.8;
+  max-width: 100%;
+}
+
+/* ── CTA Section ──────────────────────────────────────────────────── */
+.benefits-cta {
+  text-align: center;
+}
+
+.benefits-cta-inner {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.6s, transform 0.6s;
+}
+
+.benefits-cta-inner.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.benefits-cta h2 {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  font-weight: 500;
+  margin-bottom: var(--space-4);
+  letter-spacing: -0.015em;
+}
+
+.benefits-cta p {
+  font-size: var(--text-base);
+  color: var(--color-text-muted);
+  line-height: 1.7;
+  margin-bottom: var(--space-8);
+  max-width: 100%;
+}
+
+.benefits-cta .hero-buttons {
+  justify-content: center;
+}
+
+/* ── Responsive ───────────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .benefit-block {
+    flex-direction: column;
+    gap: var(--space-4);
+  }
+
+  .benefit-icon-wrap {
+    margin-top: 0;
+  }
+
+  .why-card {
+    padding: var(--space-8) var(--space-6);
+  }
+}
+
+/* ── Reduced motion ───────────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .benefit-block,
+  .why-card,
+  .benefits-cta-inner {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
