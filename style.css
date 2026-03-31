@@ -526,6 +526,53 @@ button { cursor: pointer; background: none; border: none; }
   background: var(--color-surface);
 }
 
+.pricing-table-wrap {
+  margin-bottom: var(--space-8);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.pricing-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.pricing-table thead {
+  background: var(--color-accent-subtle);
+}
+
+.pricing-table th {
+  font-family: var(--font-body);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  text-align: left;
+  padding: var(--space-4) var(--space-5);
+}
+
+.pricing-table td {
+  font-size: var(--text-base);
+  color: var(--color-text);
+  padding: var(--space-4) var(--space-5);
+  border-top: 1px solid var(--color-border);
+}
+
+.pricing-table td:last-child {
+  font-family: var(--font-display);
+  font-weight: 600;
+  color: var(--color-accent);
+}
+
+.pricing-table tbody tr:hover {
+  background: var(--color-accent-subtle);
+}
+
 .pricing-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
