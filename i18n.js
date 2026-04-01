@@ -56,7 +56,7 @@ const translations = {
   "pricing.th.price": { en: "Price",               fi: "Hinta" },
   "pricing.headneck": { en: "Head / Neck Massage", fi: "Pää- / niskahieronta" },
   "pricing.foot":     { en: "Foot Massage",        fi: "Jalkahieronta" },
-  "pricing.chair":    { en: "Chair Massage",       fi: "Tuolihieronta" },
+  "pricing.headfoot": { en: "Head / Foot Massage", fi: "Pää- / jalkahieronta" },
   "pricing.hourly":   { en: "Hourly Booking",      fi: "Tuntivaraus" },
   "pricing.halfday":  { en: "Half-Day",            fi: "Puoli päivää" },
   "pricing.fullday":  { en: "Full Day",            fi: "Koko päivä" },
