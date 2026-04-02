@@ -57,9 +57,16 @@ const translations = {
   "pricing.headneck": { en: "Head / Neck Massage", fi: "Pää- / niskahieronta" },
   "pricing.foot":     { en: "Foot Massage",        fi: "Jalkahieronta" },
   "pricing.headfoot": { en: "Head / Foot Massage", fi: "Pää- / jalkahieronta" },
+  "pricing.headneck.exvat": { en: "&euro;15 excl. VAT", fi: "&euro;15 ilman ALV" },
+  "pricing.foot.exvat":     { en: "&euro;15 excl. VAT", fi: "&euro;15 ilman ALV" },
+  "pricing.headfoot.exvat": { en: "&euro;20 excl. VAT", fi: "&euro;20 ilman ALV" },
   "pricing.hourly":   { en: "Hourly Booking",      fi: "Tuntivaraus" },
   "pricing.halfday":  { en: "Half-Day",            fi: "Puoli päivää" },
   "pricing.fullday":  { en: "Full Day",            fi: "Koko päivä" },
+  "pricing.hourly.exvat":   { en: "&euro;90 excl. VAT",  fi: "&euro;90 ilman ALV" },
+  "pricing.halfday.exvat":  { en: "&euro;350 excl. VAT", fi: "&euro;350 ilman ALV" },
+  "pricing.fullday.exvat":  { en: "&euro;650 excl. VAT", fi: "&euro;650 ilman ALV" },
+  "pricing.vatnote":  { en: "All prices include VAT 24 %", fi: "Kaikki hinnat sisältävät ALV 24 %" },
   "pricing.note":     { en: "Ask for a tailored offer based on your team size and needs.", fi: "Kysy räätälöityä tarjousta tiimisi koon ja tarpeiden mukaan." },
 
   // ── Krishan ──
