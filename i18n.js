@@ -11,15 +11,15 @@ const translations = {
   "nav.how":          { en: "How it works", fi: "Näin se toimii" },
   "nav.pricing":      { en: "Pricing",      fi: "Hinnat" },
   "nav.krishan":      { en: "Krishan",      fi: "Krishan" },
-  "nav.cta":          { en: "Get in touch", fi: "Ota yhteyttä" },
+  "nav.cta":          { en: "Book now", fi: "Varaa nyt" },
   "nav.home":         { en: "Home",         fi: "Etusivu" },
 
   // ── Hero ──
   "hero.tag":         { en: "Office wellness in Tampere",   fi: "Työpaikkahyvinvointia Tampereella" },
   "hero.headline":    { en: "Relaxation for your team,<br> right at the office.", fi: "Rentoutusta tiimillesi,<br> suoraan toimistolla." },
   "hero.sub":         { en: "Short head, foot and chair massage sessions that help employees feel calmer, lighter and more focused — without leaving the workplace.", fi: "Lyhyet pää-, jalka- ja tuolihierontahetket, jotka auttavat työntekijöitä tuntemaan olonsa rauhallisemmaksi, kevyemmäksi ja keskittyneemmäksi — poistumatta työpaikalta." },
-  "hero.book":        { en: "Book a visit",      fi: "Varaa käynti" },
-  "hero.offer":       { en: "Request an offer",  fi: "Pyydä tarjous" },
+  "hero.book":        { en: "Book a free visit", fi: "Varaa maksuton käynti" },
+  "hero.offer":       { en: "Get a free quote",  fi: "Pyydä ilmainen tarjous" },
 
   // ── About ──
   "about.tag":        { en: "About us",             fi: "Meistä" },
@@ -66,7 +66,7 @@ const translations = {
   "pricing.halfday.desc":  { en: "~24 sessions",  fi: "~24 sessiota" },
   "pricing.fullday.desc":  { en: "~42 sessions",  fi: "~42 sessiota" },
   "pricing.packages.label": { en: "Office Bookings", fi: "Toimistovaraukset" },
-  "pricing.note":     { en: "Need something custom? Get in touch and we\u2019ll work out a plan for your team.", fi: "Tarvitsetko räätälöidyn ratkaisun? Ota yhteyttä niin suunnitellaan tiimillesi sopiva paketti." },
+  "pricing.note":     { en: "Need something custom? Message us and we\u2019ll build a plan around your team.", fi: "Tarvitsetko räätälöidyn ratkaisun? Kirjoita meille ja suunnitellaan tiimillesi sopiva paketti." },
 
   // ── Krishan ──
   "krishan.tag":      { en: "Meet Krishan",                fi: "Tutustu Krishaniin" },
@@ -79,7 +79,7 @@ const translations = {
   "contact.email":    { en: "Email",     fi: "Sähköposti" },
   "contact.phone":    { en: "Phone",     fi: "Puhelin" },
   "contact.location": { en: "Location",  fi: "Sijainti" },
-  "contact.btn":      { en: "Request an offer", fi: "Pyydä tarjous" },
+  "contact.btn":      { en: "Send us a message", fi: "Lähetä meille viesti" },
 
   // ── Footer ──
   "footer.copy":      { en: "&copy; 2026 Calm Corner by Krishan. Tampere, Finland.", fi: "&copy; 2026 Calm Corner by Krishan. Tampere, Suomi." },
