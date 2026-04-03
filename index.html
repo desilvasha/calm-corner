@@ -161,68 +161,79 @@
 
     <!-- ═══════════════════════════════════════ PRICING ═══════════════════════════════════ -->
     <section class="section pricing" id="pricing">
-      <div class="container container--narrow">
-        <p class="section-tag" data-i18n="pricing.tag">Investment</p>
-        <h2 class="section-title" data-i18n="pricing.title">Transparent pricing</h2>
-        <!-- Individual services -->
-        <div class="pricing-table-wrap">
-          <table class="pricing-table">
-            <thead>
-              <tr>
-                <th data-i18n="pricing.th.svc">Service</th>
-                <th data-i18n="pricing.th.dur">Duration</th>
-                <th data-i18n="pricing.th.price">Price</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td data-i18n="pricing.headneck">Head / Neck Massage</td>
-                <td>10 min</td>
-                <td>
-                  <span class="price-main">&euro;18.60</span>
-                  <span class="price-exvat" data-i18n="pricing.headneck.exvat">&euro;15 excl. VAT</span>
-                </td>
-              </tr>
-              <tr>
-                <td data-i18n="pricing.foot">Foot Massage</td>
-                <td>10 min</td>
-                <td>
-                  <span class="price-main">&euro;18.60</span>
-                  <span class="price-exvat" data-i18n="pricing.foot.exvat">&euro;15 excl. VAT</span>
-                </td>
-              </tr>
-              <tr>
-                <td data-i18n="pricing.headfoot">Head / Foot Massage</td>
-                <td>15 min</td>
-                <td>
-                  <span class="price-main">&euro;24.80</span>
-                  <span class="price-exvat" data-i18n="pricing.headfoot.exvat">&euro;20 excl. VAT</span>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+      <div class="container">
+        <div class="pricing-header">
+          <p class="section-tag" data-i18n="pricing.tag">Investment</p>
+          <h2 class="section-title" data-i18n="pricing.title">Simple, clear pricing</h2>
+          <p class="pricing-intro" data-i18n="pricing.intro">All prices include VAT&nbsp;24&nbsp;%.</p>
         </div>
 
-        <!-- Booking packages -->
-        <div class="pricing-cards">
-          <div class="price-card">
-            <p class="price-label"><span data-i18n="pricing.hourly">Hourly Booking</span> <span class="price-detail">(60 min)</span></p>
-            <p class="price-value">&euro;111.60</p>
-            <p class="price-exvat-card" data-i18n="pricing.hourly.exvat">&euro;90 excl. VAT</p>
+        <!-- Session cards -->
+        <div class="pricing-sessions">
+          <div class="session-card">
+            <div class="session-icon">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><circle cx="14" cy="10" r="5.5" stroke="currentColor" stroke-width="1.6"/><path d="M9 10c0 0 2-3 5-3s5 3 5 3" stroke="var(--color-accent)" stroke-width="1.3" stroke-linecap="round"/><path d="M10 14c-2 1.5-3.5 3.5-3.5 6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M18 14c2 1.5 3.5 3.5 3.5 6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+            </div>
+            <p class="session-duration">10 min</p>
+            <h3 class="session-name" data-i18n="pricing.headneck">Head &amp; Neck</h3>
+            <div class="session-price">
+              <span class="session-amount">&euro;19</span>
+            </div>
           </div>
-          <div class="price-card">
-            <p class="price-label"><span data-i18n="pricing.halfday">Half-Day</span> <span class="price-detail">(4 h)</span></p>
-            <p class="price-value">&euro;434</p>
-            <p class="price-exvat-card" data-i18n="pricing.halfday.exvat">&euro;350 excl. VAT</p>
+
+          <div class="session-card">
+            <div class="session-icon">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><ellipse cx="14" cy="20" rx="7" ry="3.5" stroke="currentColor" stroke-width="1.6"/><path d="M10 20V13c0-2.2 1.8-4 4-4s4 1.8 4 4v7" stroke="currentColor" stroke-width="1.6"/><circle cx="14" cy="13" r="1.5" fill="var(--color-accent)" opacity="0.5"/></svg>
+            </div>
+            <p class="session-duration">10 min</p>
+            <h3 class="session-name" data-i18n="pricing.foot">Foot Massage</h3>
+            <div class="session-price">
+              <span class="session-amount">&euro;19</span>
+            </div>
           </div>
-          <div class="price-card">
-            <p class="price-label"><span data-i18n="pricing.fullday">Full Day</span> <span class="price-detail">(7 h)</span></p>
-            <p class="price-value">&euro;806</p>
-            <p class="price-exvat-card" data-i18n="pricing.fullday.exvat">&euro;650 excl. VAT</p>
+
+          <div class="session-card session-card--featured">
+            <span class="session-badge" data-i18n="pricing.popular">Popular</span>
+            <div class="session-icon">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><circle cx="14" cy="10" r="5.5" stroke="currentColor" stroke-width="1.6"/><ellipse cx="14" cy="20" rx="5.5" ry="2.8" stroke="currentColor" stroke-width="1.5"/><path d="M10 10c0-2.2 1.8-3 4-3" stroke="var(--color-accent)" stroke-width="1.3" stroke-linecap="round" opacity="0.7"/></svg>
+            </div>
+            <p class="session-duration">15 min</p>
+            <h3 class="session-name" data-i18n="pricing.headfoot">Head &amp; Foot</h3>
+            <div class="session-price">
+              <span class="session-amount">&euro;25</span>
+            </div>
           </div>
         </div>
-        <p class="pricing-vat-note" data-i18n="pricing.vatnote">All prices include VAT 24 %</p>
-        <p class="pricing-note" data-i18n="pricing.note">Ask for a tailored offer based on your team size and needs.</p>
+
+        <!-- Package blocks -->
+        <div class="pricing-packages">
+          <p class="packages-label" data-i18n="pricing.packages.label">Office Bookings</p>
+          <div class="packages-row">
+            <div class="package-item">
+              <div class="package-left">
+                <p class="package-name" data-i18n="pricing.hourly">Hourly</p>
+                <p class="package-meta">60 min &middot; <span data-i18n="pricing.hourly.desc">~6 sessions</span></p>
+              </div>
+              <p class="package-price">&euro;112</p>
+            </div>
+            <div class="package-item">
+              <div class="package-left">
+                <p class="package-name" data-i18n="pricing.halfday">Half-Day</p>
+                <p class="package-meta">4 h &middot; <span data-i18n="pricing.halfday.desc">~24 sessions</span></p>
+              </div>
+              <p class="package-price">&euro;435</p>
+            </div>
+            <div class="package-item package-item--highlight">
+              <div class="package-left">
+                <p class="package-name" data-i18n="pricing.fullday">Full Day</p>
+                <p class="package-meta">7 h &middot; <span data-i18n="pricing.fullday.desc">~42 sessions</span></p>
+              </div>
+              <p class="package-price">&euro;810</p>
+            </div>
+          </div>
+        </div>
+
+        <p class="pricing-note" data-i18n="pricing.note">Need something custom? Get in touch and we’ll work out a plan for your team.</p>
       </div>
     </section>
 
