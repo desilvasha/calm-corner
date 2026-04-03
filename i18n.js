@@ -22,13 +22,13 @@ const translations = {
   "hero.offer":       { en: "Request an offer",  fi: "Pyydä tarjous" },
 
   // ── About ──
-  "about.tag":        { en: "What we do",           fi: "Mitä teemme" },
-  "about.title":      { en: "What is Calm Corner?", fi: "Mikä on Calm Corner?" },
-  "about.text":       { en: "Calm Corner by Krishan brings gentle, office-friendly relaxation sessions directly to your workplace in Tampere. I specialise in short, fully clothed, oil-free head, foot and chair massage that fits easily into the workday.", fi: "Calm Corner by Krishan tuo lempeitä, toimistoympäristöön sopivia rentoutushetkiä suoraan työpaikallesi Tampereella. Olen erikoistunut lyhyisiin, vaatteet päällä tehtäviin, öljyttömiin pää-, jalka- ja tuolihierontoihin, jotka sopivat vaivattomasti työpäivään." },
+  "about.tag":        { en: "About us",             fi: "Meistä" },
+  "about.title":      { en: "Welcome to Calm Corner", fi: "Tervetuloa Calm Corneriin" },
+  "about.text":       { en: "Calm Corner brings gentle, office-friendly relaxation sessions directly to your workplace in Tampere. We specialise in short, fully clothed, oil-free head, foot and chair massage — no special room needed, no disruption to your day.", fi: "Calm Corner tuo lempeitä, toimistoystävällisiä rentoutushetkiä suoraan työpaikallesi Tampereella. Olemme erikoistuneet lyhyisiin, vaatteet päällä tehtäviin, öljyttömiin pää-, jalka- ja tuolihierontoihin — ei erityistä tilaa tarvita, ei häiriötä päiväänne." },
 
   // ── Services ──
-  "services.tag":     { en: "What I offer",        fi: "Mitä tarjoan" },
-  "services.title":   { en: "Services for offices", fi: "Palvelut toimistoille" },
+  "services.tag":     { en: "Our services",        fi: "Palvelumme" },
+  "services.title":   { en: "What we offer", fi: "Mitä tarjoamme" },
   "svc.head.title":   { en: "Head & Neck Relaxation",          fi: "Pään ja niskan rentoutus" },
   "svc.head.desc":    { en: "10–20 minutes per person. Ideal for screen-heavy work.", fi: "10–20 minuuttia per henkilö. Ihanteellinen näyttöpäätteellä työskenteleville." },
   "svc.foot.title":   { en: "Foot & Lower Leg Relaxation",     fi: "Jalkojen ja säärten rentoutus" },
@@ -41,16 +41,16 @@ const translations = {
   "svc.day.desc":     { en: "Half-day or full-day presence for staff wellbeing days and events.", fi: "Puolen päivän tai koko päivän läsnäolo henkilöstön hyvinvointipäiville ja tapahtumille." },
 
   // ── How it works ──
-  "how.tag":          { en: "Step by step",                    fi: "Askel askeleelta" },
-  "how.title":        { en: "Simple for you, relaxing for them", fi: "Helppoa sinulle, rentouttavaa heille" },
+  "how.tag":          { en: "How it works",                    fi: "Näin se toimii" },
+  "how.title":        { en: "Easy to book, calming to receive", fi: "Helppo varata, rentouttava kokea" },
   "how.step1":        { en: "You choose a date and duration",  fi: "Valitset päivän ja keston" },
-  "how.step2":        { en: "I set up a calm corner in your office", fi: "Järjestän rauhallisen nurkkauksen toimistoosi" },
+  "how.step2":        { en: "We set up a quiet space in your office", fi: "Järjestämme rauhallisen tilan toimistoosi" },
   "how.step3":        { en: "Employees book 10–20 minute slots", fi: "Työntekijät varaavat 10–20 minuutin ajat" },
   "how.step4":        { en: "Everyone goes back to work more relaxed", fi: "Kaikki palaavat töihin rentoutuneempina" },
 
   // ── Pricing ──
-  "pricing.tag":      { en: "Investment",          fi: "Hinnoittelu" },
-  "pricing.title":    { en: "Transparent pricing", fi: "Läpinäkyvä hinnoittelu" },
+  "pricing.tag":      { en: "Pricing",             fi: "Hinnat" },
+  "pricing.title":    { en: "Clear, honest pricing", fi: "Selkeä ja reilu hinnoittelu" },
   "pricing.th.svc":   { en: "Service",             fi: "Palvelu" },
   "pricing.th.dur":   { en: "Duration",            fi: "Kesto" },
   "pricing.th.price": { en: "Price",               fi: "Hinta" },
@@ -69,8 +69,8 @@ const translations = {
   "pricing.note":     { en: "Need something custom? Get in touch and we\u2019ll work out a plan for your team.", fi: "Tarvitsetko räätälöidyn ratkaisun? Ota yhteyttä niin suunnitellaan tiimillesi sopiva paketti." },
 
   // ── Krishan ──
-  "krishan.tag":      { en: "The person",                  fi: "Tekijä" },
-  "krishan.title":    { en: "Who's behind Calm Corner?", fi: "Kuka on Calm Cornerin takana?" },
+  "krishan.tag":      { en: "Meet Krishan",                fi: "Tutustu Krishaniin" },
+  "krishan.title":    { en: "The person behind Calm Corner", fi: "Calm Cornerin tekijä" },
   "krishan.text":     { en: "I'm Krishan, a wellness-focused practitioner based in Tampere. I specialise in gentle, non-medical head, foot and chair massage designed specifically for office environments. My goal is simple: to bring a moment of calm into busy workdays.", fi: "Olen Krishan, hyvinvointiin erikoistunut ammattilainen Tampereelta. Olen erikoistunut lempeään, ei-lääkinnälliseen pää-, jalka- ja tuolihierontaan, joka on suunniteltu erityisesti toimistoympäristöihin. Tavoitteeni on yksinkertainen: tuoda rauhoittava hetki kiireisiin työpäiviin." },
 
   // ── Contact ──
