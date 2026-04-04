@@ -23,8 +23,8 @@ const translations = {
 
   // ── About ──
   "about.tag":        { en: "About us",             fi: "Meistä" },
-  "about.title":      { en: "Welcome to Calm Corner", fi: "Tervetuloa Calm Corneriin" },
-  "about.text":       { en: "Calm Corner brings gentle, office-friendly relaxation sessions directly to your workplace in Tampere. We specialise in short, fully clothed, oil-free head, foot and chair massage — no special room needed, no disruption to your day.", fi: "Calm Corner tuo lempeitä, toimistoystävällisiä rentoutushetkiä suoraan työpaikallesi Tampereella. Olemme erikoistuneet lyhyisiin, vaatteet päällä tehtäviin, öljyttömiin pää-, jalka- ja tuolihierontoihin — ei erityistä tilaa tarvita, ei häiriötä päiväänne." },
+  "about.title":      { en: "Welcome to Hills Wellness", fi: "Tervetuloa Hills Wellnessiin" },
+  "about.text":       { en: "Hills Wellness brings gentle, office-friendly relaxation sessions directly to your workplace in Tampere. We specialise in short, fully clothed, oil-free head, foot and chair massage — no special room needed, no disruption to your day.", fi: "Hills Wellness tuo lempeitä, toimistoystävällisiä rentoutushetkiä suoraan työpaikallesi Tampereella. Olemme erikoistuneet lyhyisiin, vaatteet päällä tehtäviin, öljyttömiin pää-, jalka- ja tuolihierontoihin — ei erityistä tilaa tarvita, ei häiriötä päiväänne." },
 
   // ── Services ──
   "services.tag":     { en: "Our services",        fi: "Palvelumme" },
@@ -70,25 +70,25 @@ const translations = {
 
   // ── Krishan ──
   "krishan.tag":      { en: "Meet Krishan",                fi: "Tutustu Krishaniin" },
-  "krishan.title":    { en: "The person behind Calm Corner", fi: "Calm Cornerin tekijä" },
+  "krishan.title":    { en: "The person behind Hills Wellness", fi: "Hills Wellnessin tekijä" },
   "krishan.text":     { en: "I'm Krishan, a wellness-focused practitioner based in Tampere. I specialise in gentle, non-medical head, foot and chair massage designed specifically for office environments. My goal is simple: to bring a moment of calm into busy workdays.", fi: "Olen Krishan, hyvinvointiin erikoistunut ammattilainen Tampereelta. Olen erikoistunut lempeään, ei-lääkinnälliseen pää-, jalka- ja tuolihierontaan, joka on suunniteltu erityisesti toimistoympäristöihin. Tavoitteeni on yksinkertainen: tuoda rauhoittava hetki kiireisiin työpäiviin." },
 
   // ── Contact ──
   "contact.tag":      { en: "Let's talk",                     fi: "Keskustellaan" },
-  "contact.title":    { en: "Bring Calm Corner to your office", fi: "Tuo Calm Corner toimistollesi" },
+  "contact.title":    { en: "Bring Hills Wellness to your office", fi: "Tuo Hills Wellness toimistollesi" },
   "contact.email":    { en: "Email",     fi: "Sähköposti" },
   "contact.phone":    { en: "Phone",     fi: "Puhelin" },
   "contact.location": { en: "Location",  fi: "Sijainti" },
   "contact.btn":      { en: "Send us a message", fi: "Lähetä meille viesti" },
 
   // ── Footer ──
-  "footer.copy":      { en: "&copy; 2026 Calm Corner by Krishan. Tampere, Finland.", fi: "&copy; 2026 Calm Corner by Krishan. Tampere, Suomi." },
+  "footer.copy":      { en: "&copy; 2026 Hills Wellness. Tampere, Finland.", fi: "&copy; 2026 Hills Wellness. Tampere, Suomi." },
 
   // ── Benefits page ──
   "ben.breadcrumb":   { en: "&larr; Back to home", fi: "&larr; Takaisin etusivulle" },
   "ben.title":        { en: "How Massage Supports the Body and Mind", fi: "Miten hieronta tukee kehoa ja mieltä" },
   "ben.intro":        { en: "Gentle touch creates real changes in how we feel, move and function.", fi: "Lempeä kosketus saa aikaan todellisia muutoksia siinä, miten tunnemme, liikumme ja toimimme." },
-  "ben.intro.sub":    { en: "Calm Corner by Krishan offers head, foot and chair massage designed specifically for office environments. These short sessions may be simple, but the effects on the body and mind can be surprisingly powerful.", fi: "Calm Corner by Krishan tarjoaa pää-, jalka- ja tuolihierontaa, joka on suunniteltu erityisesti toimistoympäristöihin. Nämä lyhyet hetket voivat olla yksinkertaisia, mutta vaikutukset kehoon ja mieleen voivat olla yllättävän voimakkaita." },
+  "ben.intro.sub":    { en: "Hills Wellness offers head, foot and chair massage designed specifically for office environments. These short sessions may be simple, but the effects on the body and mind can be surprisingly powerful.", fi: "Hills Wellness tarjoaa pää-, jalka- ja tuolihierontaa, joka on suunniteltu erityisesti toimistoympäristöihin. Nämä lyhyet hetket voivat olla yksinkertaisia, mutta vaikutukset kehoon ja mieleen voivat olla yllättävän voimakkaita." },
   "ben.prompt":       { en: "Here's what happens during and after a relaxation massage.", fi: "Tässä on mitä tapahtuu rentoutushieronnan aikana ja sen jälkeen." },
 
   "ben.1.title":      { en: "The Body Shifts Into \"Relax Mode\"", fi: "Keho siirtyy \"rentoutumistilaan\"" },
@@ -139,7 +139,7 @@ const translations = {
   "ben.why.title":    { en: "Why These Benefits Matter at Work", fi: "Miksi nämä hyödyt ovat tärkeitä työssä" },
   "ben.why.text":     { en: "Short, fully clothed, office-friendly massage sessions are one of the simplest ways to support employee wellbeing. They require no special equipment, no undressing and no disruption to the workday — just a calm moment that makes everything feel lighter.", fi: "Lyhyet, vaatteet päällä tehtävät, toimistoystävälliset hierontahetket ovat yksi yksinkertaisimmista tavoista tukea työntekijöiden hyvinvointia. Ne eivät vaadi erikoisvälineitä, riisuutumista tai häiriötä työpäivään — vain rauhallisen hetken, joka saa kaiken tuntumaan kevyemmältä." },
   "ben.cta.title":    { en: "Bring These Benefits to Your Workplace", fi: "Tuo nämä hyödyt työpaikallesi" },
-  "ben.cta.text":     { en: "Calm Corner by Krishan offers head, foot and chair relaxation massage sessions for offices in Tampere.", fi: "Calm Corner by Krishan tarjoaa pää-, jalka- ja tuolihierontaa toimistoille Tampereella." },
+  "ben.cta.text":     { en: "Hills Wellness offers head, foot and chair relaxation massage sessions for offices in Tampere.", fi: "Hills Wellness tarjoaa pää-, jalka- ja tuolihierontaa toimistoille Tampereella." },
 };
 
 /* ── Engine ──────────────────────────────────────────────────────────── */
