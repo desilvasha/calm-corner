@@ -69,9 +69,9 @@ const translations = {
   "pricing.note":     { en: "Need something custom? Message us and we\u2019ll build a plan around your team.", fi: "Tarvitsetko räätälöidyn ratkaisun? Kirjoita meille ja suunnitellaan tiimillesi sopiva paketti." },
 
   // ── Krishan ──
-  "krishan.tag":      { en: "Meet Krishan",                fi: "Tutustu Krishaniin" },
-  "krishan.title":    { en: "The person behind Hills Wellness", fi: "Hills Wellnessin tekijä" },
-  "krishan.text":     { en: "I'm Krishan, a wellness-focused practitioner based in Tampere. I specialise in gentle, non-medical head, foot and chair massage designed specifically for office environments. My goal is simple: to bring a moment of calm into busy workdays.", fi: "Olen Krishan, hyvinvointiin erikoistunut ammattilainen Tampereelta. Olen erikoistunut lempeään, ei-lääkinnälliseen pää-, jalka- ja tuolihierontaan, joka on suunniteltu erityisesti toimistoympäristöihin. Tavoitteeni on yksinkertainen: tuoda rauhoittava hetki kiireisiin työpäiviin." },
+  "krishan.tag":      { en: "Our team",                    fi: "Tiimimme" },
+  "krishan.title":    { en: "The people behind Hills Wellness", fi: "Hills Wellnessin tekijät" },
+  "krishan.text":     { en: "We are a small, wellness-focused team based in Tampere. We specialise in gentle, non-medical head, foot and chair massage designed specifically for office environments. Our goal is simple: to bring a moment of calm into busy workdays.", fi: "Olemme pieni, hyvinvointiin keskittyvä tiimi Tampereelta. Olemme erikoistuneet lempeään, ei-lääkinnälliseen pää-, jalka- ja tuolihierontaan, joka on suunniteltu erityisesti toimistoympäristöihin. Tavoitteemme on yksinkertainen: tuoda rauhoittava hetki kiireisiin työpäiviin." },
 
   // ── Contact ──
   "contact.tag":      { en: "Let's talk",                     fi: "Keskustellaan" },
