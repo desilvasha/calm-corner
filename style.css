@@ -681,6 +681,14 @@ button { cursor: pointer; background: none; border: none; }
   color: var(--color-text-inverse);
 }
 
+.session-cents {
+  font-size: 0.55em;
+  font-weight: 500;
+  opacity: 0.6;
+  vertical-align: super;
+  letter-spacing: 0;
+}
+
 /* Packages */
 .pricing-packages {
   max-width: 720px;
