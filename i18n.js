@@ -55,6 +55,7 @@ const translations = {
   "pricing.th.dur":   { en: "Duration",            fi: "Kesto" },
   "pricing.th.price": { en: "Price",               fi: "Hinta" },
   "pricing.intro":    { en: "All prices include VAT\u00a025.5\u00a0%.", fi: "Kaikki hinnat sisältävät ALV\u00a025,5\u00a0%." },
+  "pricing.vat.prefix": { en: "incl. VAT", fi: "sis. ALV" },
   "pricing.headneck": { en: "Head & Neck",         fi: "Pää- / niskahieronta" },
   "pricing.foot":     { en: "Foot Massage",        fi: "Jalkahieronta" },
   "pricing.headfoot": { en: "Head & Foot",         fi: "Pää- / jalkahieronta" },
