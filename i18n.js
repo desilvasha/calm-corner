@@ -63,16 +63,16 @@ const translations = {
   "pricing.hourly":   { en: "Hourly",              fi: "Tuntivaraus" },
   "pricing.halfday":  { en: "Half-Day",            fi: "Puoli päivää" },
   "pricing.fullday":  { en: "Full Day",            fi: "Koko päivä" },
-  "pricing.hourly.desc":   { en: "~6 sessions",   fi: "~6 sessiota" },
-  "pricing.halfday.desc":  { en: "~24 sessions",  fi: "~24 sessiota" },
-  "pricing.fullday.desc":  { en: "~42 sessions",  fi: "~42 sessiota" },
+  "pricing.hourly.desc":   { en: "~5 sessions",   fi: "~5 sessiota" },
+  "pricing.halfday.desc":  { en: "~20 sessions",  fi: "~20 sessiota" },
+  "pricing.fullday.desc":  { en: "~35 sessions",  fi: "~35 sessiota" },
   "pricing.packages.label": { en: "Office Bookings", fi: "Toimistovaraukset" },
   "pricing.note":     { en: "Need something custom? Message us and we\u2019ll build a plan around your team.", fi: "Tarvitsetko räätälöidyn ratkaisun? Kirjoita meille ja suunnitellaan tiimillesi sopiva paketti." },
 
   // ── Krishan ──
   "krishan.tag":      { en: "Our team",                    fi: "Tiimimme" },
   "krishan.title":    { en: "The people behind Calm Corner", fi: "Calm Cornerin tekijät" },
-  "krishan.text":     { en: "We are a small, wellness-focused team based in Tampere. We specialise in gentle, non-medical head, foot and chair massage designed specifically for office environments. Our goal is simple: to bring a moment of calm into busy workdays.", fi: "Olemme pieni, hyvinvointiin keskittyvä tiimi Tampereelta. Olemme erikoistuneet lempeään, ei-lääkinnälliseen pää-, jalka- ja tuolihierontaan, joka on suunniteltu erityisesti toimistoympäristöihin. Tavoitteemme on yksinkertainen: tuoda rauhoittava hetki kiireisiin työpäiviin." },
+  "krishan.text":     { en: "We are a small, wellness&#8209;focused team based in Tampere, dedicated to bringing calm into busy workdays. We specialise in gentle, non&#8209;medical head, foot and chair massage designed specifically for office environments.<br><br>Our lead masseuse trained in Australia, where workplace wellness and office&#8209;based massage are highly developed. With years of hands&#8209;on experience, he brings a professional, intuitive and deeply relaxing approach to every session.<br><br>Our goal is simple: to create small, meaningful moments of peace that help people feel better, focus better and work better.", fi: "Olemme pieni, hyvinvointiin keskittyvä tiimi Tampereelta, ja tavoitteenamme on tuoda rauhallisuutta kiireisiin työpäiviin. Olemme erikoistuneet lempeään, ei-lääkinnälliseen pää-, jalka- ja tuolihierontaan, joka on suunniteltu erityisesti toimistoympäristöihin.<br><br>Päähoitajamme on kouluttautunut Australiassa, missä työpaikkaterveys ja toimistohieronta ovat pitkälle kehittyneitä. Vuosien käytännön kokemuksella hän tuo jokaiseen istuntoon ammattimaisen, intuitiivisen ja syvästi rentouttavan otteen.<br><br>Tavoitteemme on yksinkertainen: luoda pieniä, merkityksellisiä rauhan hetkiä, jotka auttavat ihmisiä voimaan paremmin, keskittymään paremmin ja työskentelemään paremmin." },
 
   // ── Contact ──
   "contact.tag":      { en: "Let's talk",                     fi: "Keskustellaan" },
