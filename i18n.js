@@ -22,6 +22,19 @@ const translations = {
   "hero.offer":       { en: "Get a free quote",  fi: "Pyydä ilmainen tarjous" },
 
   // ── About ──
+  "story.tag":   { en: "Our story",   fi: "Tarinamme" },
+  "story.title": { en: "Behind the idea", fi: "Idean taustalla" },
+  "story.lead":  { en: "This idea didn\u2019t come from a business plan. It came from real life \u2014 from watching people in the office every day.", fi: "T\u00e4m\u00e4 idea ei syntynyt liiketoimintasuunnitelmasta. Se syntyi todellisesta el\u00e4m\u00e4st\u00e4 \u2014 kun seurasin ihmisi\u00e4 toimistossa p\u00e4iv\u00e4 toisensa j\u00e4lkeen." },
+  "story.p1":    { en: "While working in an office, I noticed something simple but powerful: every time people took a 10-minute break, they used it to drink coffee, scroll their phone, or smoke.", fi: "Ty\u00f6skennelless\u00e4ni toimistossa huomasin jotain yksinkertaista mutta voimakasta: aina kun ihmiset pitivit 10 minuutin tauon, he k\u00e4yttiv\u00e4t sen kahvinjuontiin, puhelimen selaamiseen tai tupakointiin." },
+  "story.line1": { en: "Everyone was tired.",    fi: "Kaikki olivat v\u00e4syneit\u00e4." },
+  "story.line2": { en: "Everyone was stressed.",  fi: "Kaikki olivat stressaantuneita." },
+  "story.line3": { en: "Everyone was rushing.",   fi: "Kaikki kiirehtiv\u00e4t." },
+  "story.p2":    { en: "But those 10 minutes were the only moments people had for themselves. And I kept thinking \u2014 what if those 10 minutes could actually help people feel better? What if a break could reduce stress instead of adding more? What if we could replace a smoke break with a calm break?", fi: "Mutta ne 10 minuuttia olivat ainoita hetkia, joita ihmisill\u00e4 oli itselleen. Ja minulle tuli jatkuvasti mieleen \u2014 ent\u00e4 jos n\u00e4m\u00e4 10 minuuttia voisivat oikeasti auttaa ihmisi\u00e4 voimaan paremmin?" },
+  "story.quote": { en: "They don\u2019t need to travel anywhere. They don\u2019t need complicated routines. They just need a moment of calm \u2014 right where they are.", fi: "He eiv\u00e4t tarvitse matkustaa mihink\u00e4\u00e4n. He eiv\u00e4t tarvitse monimutkaisia rutiineja. He tarvitsevat vain rauhan hetken \u2014 juuri siell\u00e4, miss\u00e4 ovat." },
+  "story.p3":    { en: "So I created a service designed exactly for that: short, effective head and foot relaxation sessions that fit into real life. Sessions that work for busy people, office workers, parents, students \u2014 anyone who needs a break that actually helps.", fi: "Joten loin palvelun juuri sit\u00e4 varten: lyhyet, tehokkaat p\u00e4\u00e4- ja jalkahierontasessiot, jotka sopivat todelliseen el\u00e4m\u00e4\u00e4n." },
+  "story.truth": { en: "Even 10 minutes can change how your whole day feels.", fi: "Jopa 10 minuuttia voi muuttaa koko p\u00e4iv\u00e4si tunnelman." },
+  "story.p4":    { en: "Today, Calm Corner brings that moment of calm to workplaces, events, and individuals across Tampere \u2014 helping people feel lighter, clearer, and more connected to themselves.", fi: "T\u00e4n\u00e4 p\u00e4iv\u00e4n\u00e4 Calm Corner tuo sen rauhan hetken ty\u00f6paikoille, tapahtumiin ja yksityishenkil\u00f6ille koko Tampereella." },
+
   "about.tag":        { en: "About us",             fi: "Meistä" },
   "about.title":      { en: "Welcome to Calm Corner", fi: "Tervetuloa Calm Corneriin" },
   "about.text":       { en: "Calm Corner brings gentle, office-friendly relaxation sessions directly to your workplace in Tampere. We specialise in short, fully clothed, oil-free head, foot and chair massage — no special room needed, no disruption to your day.", fi: "Calm Corner tuo lempeitä, toimistoystävällisiä rentoutushetkiä suoraan työpaikallesi Tampereella. Olemme erikoistuneet lyhyisiin, vaatteet päällä tehtäviin, öljyttömiin pää-, jalka- ja tuolihierontoihin — ei erityistä tilaa tarvita, ei häiriötä päiväänne." },

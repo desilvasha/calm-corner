@@ -463,6 +463,66 @@ button { cursor: pointer; background: none; border: none; }
 
 .about-text.revealed { opacity: 1; transform: translateY(0); }
 
+/* ── Story ────────────────────────────────────────────────────────── */
+.story { background: var(--color-surface); }
+
+.story-body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.story-body p {
+  font-size: var(--text-base);
+  color: var(--color-text-muted);
+  line-height: 1.85;
+  margin: 0;
+}
+
+.story-lead {
+  font-size: var(--text-lg) !important;
+  color: var(--color-text) !important;
+  font-weight: 500;
+  line-height: 1.6 !important;
+}
+
+.story-triple {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-left: var(--space-5);
+  border-left: 3px solid var(--color-accent);
+}
+
+.story-triple span {
+  font-size: var(--text-base);
+  color: var(--color-text);
+  font-weight: 500;
+  font-style: italic;
+}
+
+.story-quote {
+  background: var(--color-bg);
+  border-radius: 12px;
+  padding: var(--space-6);
+  font-size: var(--text-base);
+  color: var(--color-text);
+  line-height: 1.8;
+  border-left: 4px solid var(--color-accent);
+  font-style: italic;
+}
+
+.story-truth {
+  font-size: var(--text-lg) !important;
+  font-weight: 700;
+  color: var(--color-accent) !important;
+  text-align: center;
+  padding: var(--space-4) 0;
+  letter-spacing: -0.01em;
+}
+
 /* ── Services ─────────────────────────────────────────────────────── */
 .services {
   background: var(--color-surface);
