@@ -23,7 +23,7 @@ const translations = {
 
   // ── About ──
   "story.tag":   { en: "Our story",   fi: "Tarinamme" },
-  "story.title": { en: "Behind the idea", fi: "Idean taustalla" },
+  "story.title": { en: "Our story", fi: "Tarinamme" },
   "story.lead":  { en: "This idea didn\u2019t come from a business plan. It came from real life \u2014 from watching people in the office every day.", fi: "T\u00e4m\u00e4 idea ei syntynyt liiketoimintasuunnitelmasta. Se syntyi todellisesta el\u00e4m\u00e4st\u00e4 \u2014 kun seurasin ihmisi\u00e4 toimistossa p\u00e4iv\u00e4 toisensa j\u00e4lkeen." },
   "story.p1":    { en: "While working in an office, I noticed something simple but powerful: every time people took a 10-minute break, they used it to drink coffee, scroll their phone, or smoke.", fi: "Ty\u00f6skennelless\u00e4ni toimistossa huomasin jotain yksinkertaista mutta voimakasta: aina kun ihmiset pitivit 10 minuutin tauon, he k\u00e4yttiv\u00e4t sen kahvinjuontiin, puhelimen selaamiseen tai tupakointiin." },
   "story.line1": { en: "Everyone was tired.",    fi: "Kaikki olivat v\u00e4syneit\u00e4." },
