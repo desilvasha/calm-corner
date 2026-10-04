@@ -76,9 +76,9 @@ const translations = {
   "pricing.hourly":   { en: "Hourly",              fi: "Tuntivaraus" },
   "pricing.halfday":  { en: "Half-Day",            fi: "Puoli päivää" },
   "pricing.fullday":  { en: "Full Day",            fi: "Koko päivä" },
-  "pricing.hourly.desc":   { en: "~5 sessions",   fi: "~5 sessiota" },
-  "pricing.halfday.desc":  { en: "~20 sessions",  fi: "~20 sessiota" },
-  "pricing.fullday.desc":  { en: "~35 sessions",  fi: "~35 sessiota" },
+  "pricing.hourly.desc":   { en: "3 × 15-min sessions",  fi: "3 × 15 min sessiota" },
+  "pricing.halfday.desc":  { en: "12 × 15-min sessions", fi: "12 × 15 min sessiota" },
+  "pricing.fullday.desc":  { en: "21 × 15-min sessions", fi: "21 × 15 min sessiota" },
   "pricing.packages.label": { en: "Office Bookings", fi: "Toimistovaraukset" },
   "pricing.note":     { en: "Need something custom? Message us and we\u2019ll build a plan around your team.", fi: "Tarvitsetko räätälöidyn ratkaisun? Kirjoita meille ja suunnitellaan tiimillesi sopiva paketti." },
 
